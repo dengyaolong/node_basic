@@ -53,7 +53,7 @@ fs.writeFile('test.txt', 'Hello Node\n', function(err){
   })
 })
 
-console.log('fs是一个一步操作');
+console.log('fs是一个异步操作');
 
 fs.readdir('.', function(err,files){
   if (err) throw err;
