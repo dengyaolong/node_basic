@@ -75,6 +75,8 @@ console.log('结束所有的IO');
 ```
 
 运行结果
+
+
 ![](http://7tebxh.com1.z0.glb.clouddn.com/fs_res.png)
 
 
