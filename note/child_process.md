@@ -12,7 +12,7 @@ Node是基于单线程模型架构的，意在榨干CPU，但是无法利用多�
 |child_process.spawn(command[, args][, options])|创建一个子进程,其选项在[,args]中|
 |child_process.exec(command[, options], callback)|创建一个子进程执行command，<br>之后callback中有三个参数err, <br> stdout,stderr,分别是错误，标准<br>输出，错误输出|
 |child_process.execFile(file[, options], callback)|和exec基本一致，不过执行的是文件|
-|child_process.fork(modulePath)|可以指定模块尽心该操作，用于派生Node进程|
+|child_process.fork(modulePath)|可以指定模块执行该操作，用于派生Node进程|
 
 **3. demo**
 
