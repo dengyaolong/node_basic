@@ -47,5 +47,5 @@ console.log(util.isRegExp(obj), util.isRegExp(/^\w+$/));
 
 ![](http://7tebxh.com1.z0.glb.clouddn.com/res_util.png)
 
-
+更详细可以参考[这里](https://nodejs.org/api/util.html#util_util_inspect_object_options)
 
